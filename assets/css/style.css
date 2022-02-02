@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #DBD6D0;
+}
+.header {
+  width: 100%;
+  z-index: 1;
+}
+.headerStyle {
+  /* color: #AEE6E3; */
+  color: #BBE0F2;
+}
+.characters{
+    margin: 140px;
+    margin-bottom: 60px;
+}
