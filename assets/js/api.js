@@ -16,6 +16,7 @@ const fillData = (data) => {
   data.forEach((ch) => {
     html += '<div class="col">';
     html += '<div class="card h-100">';
+    html+=`<div class="idCharacter">#${ch.id}</div>`
     html += `<img src="${ch.image}" class="card-img-top" alt="...">`;
     html += '<div class="card-body">';
     html += `<h5 class="card-title">${ch.name}</h5>`;

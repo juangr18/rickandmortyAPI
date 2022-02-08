@@ -10,10 +10,26 @@ body{
   z-index: 1;
 }
 .headerStyle {
-  /* color: #AEE6E3; */
   color: #BBE0F2;
 }
 .characters{
     margin: 140px;
     margin-bottom: 60px;
+}
+
+.idCharacter{
+  border-radius: 10 3;
+  width: 2rem;
+  background-image: linear-gradient(90deg, #FB6467FF  0%, #BBE0F2 100%);
+  position: absolute;
+  display: block;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 70% 30% 40% 49% / 20% 30% 70% 70%;
+  -webkit-border-radius: 70% 30% 40% 49% / 20% 30% 70% 70%;
+  -moz-border-radius: 70% 30% 40% 49% / 20% 30% 70% 70%;
+  -ms-border-radius: 70% 30% 40% 49% / 20% 30% 70% 70%;
+  -o-border-radius: 70% 30% 40% 49% / 20% 30% 70% 70%;
 }
